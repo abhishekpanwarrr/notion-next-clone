@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import Heading from "./_components/heading";
 import Heroes from "./_components/heros";
+import Footer from "./_components/footer";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
         <Heading />
         <Heroes />
       </div>
+      <Footer />
     </div>
   );
 }
